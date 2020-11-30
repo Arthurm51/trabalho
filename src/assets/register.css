@@ -1,0 +1,89 @@
+.pagRegister{
+    margin-top: 100px;
+    margin-left: 35%;
+    width: 30%;
+    height: 380px;
+    color: white;
+    background-color: orangered;
+    border: double 5px;
+    border-color:  black;
+    border-radius: 10px;
+}
+
+.pagRegister .nameRegister h3{
+    margin-left: 10px;
+    width: 100%;
+    height: 20px;   
+}
+
+.pagRegister .nameRegister #nameRegister{
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    border-color: black;
+    border: solid 3px;
+    outline: 0;
+}
+
+.pagRegister .emailRegister h3{
+    margin-left: 10px;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.pagRegister .emailRegister #emailRegister{
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    border-color: black;
+    border: solid 3px;
+    outline: 0;
+}
+
+.pagRegister .passwordRegister h3{
+    margin-left: 10px;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.pagRegister .passwordRegister #passwordRegister{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    border-color: black;
+    border: solid 3px;
+    outline: 0;
+    
+}
+
+.pagRegister .buttonRegister button{
+    font-size: 17px;
+    margin-top: 30px;
+    background-color: black;
+    height: 50px;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border: solid 3px;
+    margin-left: 35%;
+    margin-right: 35%;
+    outline: 0;
+}
+
+.pagRegister .buttonRegister button:hover{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}

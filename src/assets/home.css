@@ -1,0 +1,289 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.body h2{
+    font-size: 30px;
+    font-style: italic;
+    font-family: system-ui;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding: 61px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orangered;
+    border: double 5px;
+    border-color:  black;
+    border-radius: 10px;
+}
+
+.modalitiesTournaments{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.modalities1{
+    border-radius: 10px 10px 0px 0px;
+    
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    border-left: solid 5px;
+    border-top: solid 5px;
+    border-right: solid 5px;
+    border-color: orangered;
+}
+
+.modalities1 .soccer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 30%;
+    height: 400px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalities1 .soccer:hover{
+    transition: 0.8s;
+    background-color: orangered;
+    
+}
+
+
+
+.modalities1 .soccer img{
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+    width: 60%;
+}
+
+.modalities1 .soccer:hover img{
+    transition: 0.8s;
+    width: 70%;
+}
+
+
+.modalities1 .soccer h3{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.modalities1 .soccer:hover h3{
+    transition: 0.8s;
+    color: white;
+    font-size: 25px;
+}
+
+.modalities1 .futsal{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 30%;
+    margin-right: 10%;
+    height: 400px ;
+    align-items: center;
+    justify-content: center;
+    float: right;
+
+
+}
+
+.modalities1 .futsal:hover{
+    transition: 0.8s;
+    background-color: orangered;
+    
+}
+
+
+
+.modalities1 .futsal img{
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+    width: 60%;
+}
+
+.modalities1 .futsal:hover img{
+    transition: 0.8s;
+    width: 70%;
+}
+
+
+.modalities1 .futsal h3{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    width: 60%;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.modalities1 .futsal:hover h3{
+    transition: 0.8s;
+    color: white;
+    font-size: 25px;
+}
+
+.modalities2{
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+    border-right: solid 5px;
+    border-color: orangered;
+    margin-bottom: 20px;
+    
+    border-radius: 0px 0px 10px 10px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.modalities2 .society{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 30%;
+    margin-left: 10%;
+    height: 400px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalities2 .society:hover{
+    transition: 0.8s;
+    background-color: orangered;
+    
+}
+
+
+
+.modalities2 .society img{
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+    width: 60%;
+}
+
+.modalities2 .society:hover img{
+    transition: 0.8s;
+    width: 70%;
+}
+
+
+.modalities2 .society h3{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.modalities2 .society:hover h3{
+    transition: 0.8s;
+    color: white;
+    font-size: 25px;
+}
+
+.modalities2 .footvolley{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 30%;
+    margin-right: 10%;
+    height: 400px ;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.modalities2 .footvolley:hover{
+    transition: 0.8s;
+    background-color: orangered;
+    
+}
+
+
+
+.modalities2 .footvolley img{
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+    width: 60%;
+}
+
+.modalities2 .footvolley:hover img{
+    transition: 0.8s;
+    
+    width: 70%;
+}
+
+
+.modalities2 .footvolley h3{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.modalities2 .footvolley:hover h3{
+    transition: 0.8s;
+    color: white;
+    font-size: 25px;
+}

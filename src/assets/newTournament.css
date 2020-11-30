@@ -1,0 +1,90 @@
+.newTournament {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 40%;
+    margin-left: 30%;
+    
+    color: white;
+    background-color: orangered;
+    border: double 5px;
+    border-color:  black;
+    border-radius: 10px;
+}
+
+.newTournament .modalitieNewTournament textarea{
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+    font-size: 15px;
+}
+
+.newTournament .dataNewTournament textarea{
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+    font-size: 15px;
+}
+
+.newTournament .localNewTournament textarea{
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+    font-size: 15px;
+}
+
+.newTournament .rewardNewTournament textarea{
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+    font-size: 15px;
+}
+
+.newTournament .contactNewTournament textarea{
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+    font-size: 15px;
+}
+
+.newTournament .buttonNewTournament button{
+    margin-top: 30px;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border: solid 3px;
+    font-size: 17px;
+    outline: 0;
+}
+
+.newTournament .buttonNewTournament button:hover{
+
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}

@@ -1,0 +1,88 @@
+.pagLogin{
+    margin-top: 100px;
+    margin-left: 35%;
+    width: 30%;
+    height: 380px;
+    color: white;
+    background-color: orangered;
+    border: double 5px;
+    border-color:  black;
+    border-radius: 10px;
+}
+
+
+
+.pagLogin .email h3{
+    margin-left: 10px;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.pagLogin .email #emailLogin{
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    border-color: black;
+    border: solid 3px;
+    outline: 0;
+}
+
+.pagLogin .password h3{
+    margin-left: 10px;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.pagLogin .password #passwordLogin{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    border-color: black;
+    border: solid 3px;
+    outline: 0;
+    
+}
+
+.pagLogin .buttonLogin button{
+    font-size: 17px;
+    margin-top: 30px;
+    background-color: black;
+    height: 50px;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border: solid 3px;
+    margin-left: 35%;
+    margin-right: 35%;
+    outline: 0;
+}
+
+.pagLogin .buttonLogin button:hover{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.pagLogin .remember{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.pagLogin .register{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
